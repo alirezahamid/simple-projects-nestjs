@@ -7,7 +7,6 @@ import {
   StudentResponseDto,
   UpdateStudentDto,
 } from './dto/student.dto';
-import { FindTeacherResponseDto } from 'src/teacher/dto/teacher.dto';
 @Injectable()
 export class StudentService {
   private students = students;
